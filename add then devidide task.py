@@ -5,10 +5,9 @@ number = int(input("what is your first number?: "))
 
 number1 = int(input("What is your second number?: "))
 
-dnumber = int(input("What do you want to devide by?: "))
 
-answer = (number + number1)/dnumber
-
+answer = number //dnumber
+remainder  
 print("your awswer is {0}".format(answer))
 
 

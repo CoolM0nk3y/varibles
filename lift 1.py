@@ -1,14 +1,14 @@
 # Oscar Stanley
 #15-9-2014
 #fridge and lift
-print("
-number = int(input("what is the depth of the fridge?: "))
-number1 = int(input("What is the width of the fridge?: "))
-number2 = int(input("What is the hight of the fridge?: "))
+print("These are in cm")
+fridge_depth = int(input("what is the depth of the fridge?: "))
+fridge_width = int(input("What is the width of the fridge?: "))
+fridge_height = int(input("What is the hight of the fridge?: "))
 
-number3 = int(input("What is the depth of the lift?: "))
-number4 = int(input("What is the width ?: "))
-number5 = int(input("What is your fourth number?: "))
+lift_depth = int(input("What is the depth of the lift?: "))
+lift_width = int(input("What is the width of the lift?: "))
+lift_height = int(input("What is the height of the lift?: "))
 
-answer = (number * number1 * number2) - (number3 * number4 * number5)
-print("your awswer is {0}".format(answer))
+answer =(lift_depth * lift_width * lift_height) - (fridge_depth * fridge_width * fridge_height)
+print("your awswer is {0} cm³".format(answer))
